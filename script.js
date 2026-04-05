@@ -34,10 +34,10 @@ playBtn.addEventListener('click', () => {
   if (song.paused) {
     song.currentTime = 0;
     song.play();
-    playBtn.textContent = 'Play Song';
+    playBtn.textContent = 'Pause Song';
   } else {
     song.pause();
-    playBtn.textContent = 'Pause Song';
+    playBtn.textContent = 'Play Song';
   }
 });
 
